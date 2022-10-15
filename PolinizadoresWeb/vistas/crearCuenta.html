@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Crear cuenta</title>
+        <link href="estilos/crearCuenta.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="login-page">
+            <div class="form">
+              <div class="tittle">
+                <tittle>Crear cuenta</tittle>
+              </div>
+              <form class="login-form">
+                <div class="-mb-4">
+                    <label for="txtNombre" class="form-label">Nombre:</label>
+                    <input type="text" name="txtNombre" id="txtNombre" required/>
+
+                    <label for="txtPais" class="form-label">País:</label>
+                    <input type="text" name="txtPais" id="txtPais" readonly="readonly">
+
+                    <label for="txtEstado" class="form-label">Estado:</label>
+                    <input type="text" name="txtEstado" id="txtEstado" required/>
+
+                    <label for="dtFecha" class="form-label">Fecha de nacimiento:</label>
+                    <input type="date" name="dtFecha" id="dtFecha" required/>
+
+                    <label for="txtCorreo" class="form-label">Correo:</label>
+                    <input type="email" name="txtCorreo" id="txtCorreo" required/>
+
+                    <label for="txtContraseña" class="form-label">Contraseña:</label>
+                    <input type="text" name="txtContraseña" id="txtContraseña" required/>
+                </div>            
+                <button>Crear cuenta</button>
+                <button>Cancelar</button>
+              </form>
+            </div>
+          </div>
+    </body>
+</html>
