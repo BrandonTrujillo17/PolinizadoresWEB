@@ -1,0 +1,30 @@
+body{
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo img{
+   height: 80px;
+   align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+nav a:hover{
+    color:forestgreen;
+}
